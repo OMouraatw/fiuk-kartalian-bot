@@ -10,8 +10,8 @@ from possums import *
 #Token e Prefix do App
 
 bot = lightbulb.BotApp(
-    token='OTY0OTA4MTk1NTI3MTQ3NTYy.YlreyA.56YnYOWdFPGwgXlwL_oieGextt4',
-    prefix='FUCKING '
+    token='Secret',
+    prefix='!'
 )
 
 #Evento de início
@@ -51,23 +51,23 @@ async def nomepossum(ctx: lightbulb.Context):
 async def kinassign(ctx: lightbulb.Context) -> None:
     escolha = ctx.options.escolhas
     if escolha == "anime":
-        await ctx.respond("Segundo minhas análises de hetero branco... Você tem kin em {}".format(random.choice(kinass_game_names)))
+        await ctx.respond("Segundo minhas análises... Você tem kin em {}".format(random.choice(kinass_game_names)))
         return
     
     if escolha == "jogo":
-        await ctx.respond("Segundo minhas análises de hetero branco... Você tem kin em {}".format(random.choice(kinass_game_names)))
+        await ctx.respond("Segundo minhas análises Você tem kin em {}".format(random.choice(kinass_game_names)))
         return
 
     if escolha == "filme":
-        await ctx.respond("Segundo minhas análises de hetero branco... Você tem kin em {}".format(random.choice(kinass_game_names)))
+        await ctx.respond("Segundo minhas análises Você tem kin em {}".format(random.choice(kinass_game_names)))
         return
     
     if escolha == "série":
-        await ctx.respond("Segundo minhas análises de hetero branco... Você tem kin em {}".format(random.choice(kinass_game_names)))
+        await ctx.respond("Segundo minhas análises Você tem kin em {}".format(random.choice(kinass_game_names)))
         return
 
     if escolha == "música":
-        await ctx.respond("Segundo minhas análises de hetero branco... Você tem kin em {}".format(random.choice(kinass_game_names)))
+        await ctx.respond("Segundo minhas análisesVocê tem kin em {}".format(random.choice(kinass_game_names)))
         return
 
     else:
